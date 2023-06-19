@@ -1,0 +1,19 @@
+Start 0
+GoSub 3
+Jump 15
+GoSubLabel 4
+PushI 4
+PushI 8
+PushI 1
+PopArray 0
+PushI 2
+PopArray 2
+PushI 1
+PushArray 0
+PushI 2
+PushArray 2
+Return 
+PrintTOS 
+Pop 
+PrintTOS 
+Exit
