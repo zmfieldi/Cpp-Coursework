@@ -1,0 +1,19 @@
+this_should_not_print_1
+this_should_print_1
+this_should_print_2
+this_should_not_print_2
+Start 0
+PushI 1
+Dup
+JumpNZero 5
+Prints 0
+Prints 1
+Dup
+PushI 1
+Negate 
+Add 
+JumpNZero 13
+Prints 2
+Jump 14
+Prints 3
+Exit

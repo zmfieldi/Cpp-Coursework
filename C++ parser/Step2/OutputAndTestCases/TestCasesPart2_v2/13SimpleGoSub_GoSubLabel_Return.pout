@@ -1,0 +1,10 @@
+this_should_print
+print_in_subroutine_should_print
+Start 0
+GoSub 4
+Prints 0
+Jump 7
+GoSubLabel 0
+Prints 1
+Return 
+Exit

@@ -1,0 +1,14 @@
+Start 4
+PushI 4
+PushI 8
+PushI 1
+PopArray 0
+PushI 2
+PopArray 0
+PushI 1
+PushArray 0
+PushI 2
+PushArray 0
+PrintTOS 
+PrintTOS 
+Exit

@@ -1,0 +1,7 @@
+In v2, the .vout was changed to the correct one with the div result being 0.
+
+v1 changes:
+5Div -- the .vout file was changed to reflect what the spec says the vm should do for a divide
+22HardArray -- the "subscript" was changed from 2 to 0, changing the .pout and .vout files
+
+10Swap, 15ScalarHard, 17ScalarHard, 18ScalarHardest, 20ArrayHard, 22ArrayHard, 23ArrayHardest were all changed by eliminating the pop after a printtos. This makes the programs perform properly with the vm spec.  See @480_f1 on Piazza.  As a result, the .out, .pout (ascii from the parser) and (.vout, output from the vm) files also changed. 

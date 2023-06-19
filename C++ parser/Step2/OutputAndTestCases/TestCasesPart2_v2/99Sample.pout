@@ -1,0 +1,12 @@
+exit_pgm
+Start 1
+PushI 4
+GoSub 4
+Jump 8
+GoSubLabel 1
+PopScalar 1
+PushScalar 1
+Return 
+PopScalar 0
+Prints 0
+Exit
