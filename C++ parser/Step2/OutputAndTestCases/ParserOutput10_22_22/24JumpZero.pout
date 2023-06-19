@@ -1,0 +1,20 @@
+this_should_print_1
+this_should_not_print_1
+this_should_not_print_2
+this_should_print_2
+Start 0
+PushI 1
+Dup
+JumpZero 6
+Prints 0
+Jump 7
+Prints 1
+Dup
+PushI 1
+Negate 
+Add 
+JumpZero 14
+Prints 2
+Jump 15
+Prints 3
+Exit
